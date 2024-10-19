@@ -16,7 +16,7 @@ document.getElementById('ageForm').addEventListener('submit', function(event) {
             if (ageInput >= 18) {
                 resolve(`Welcome, ${nameInput}. You can vote.`);
             } else {
-                reject(`Oh sorry, ${nameInput}. You aren't old enough.`);
+                reject(`Oh sorry ${nameInput}. You aren't old enough.`);
             }
         }, 4000);  // 4 seconds delay
     })
